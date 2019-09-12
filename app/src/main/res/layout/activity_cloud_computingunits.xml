@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CloudComputingunits"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cloud Computing"
+    android:textStyle="bold"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"
+    android:textSize="40dp"
+    android:textColor="#000"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unit-1"
+        android:onClick="ccunit1"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unit-2"
+        android:layout_gravity="center"
+        android:onClick="ccunit2"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"/>
+</LinearLayout>
